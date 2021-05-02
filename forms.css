@@ -1,0 +1,52 @@
+#Form{
+   
+    height: 300px;
+    width: 400px;
+    margin-left: 100px;
+    
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#inputname{
+    margin-left: 40px;
+}
+
+#male{
+    margin-left: 40px;
+}
+#female{
+    margin-left: 40px;
+}
+
+#age{
+    margin-left: 50px;
+}
+
+#cities{
+    margin-left: 50px;
+}
+
+#add{
+    margin-left: 20px;
+}
+
+#reset{
+    margin-left: 20px;
+}
+
+#table{
+   
+    height: 600px;
+    width: 900px;
+    margin-left: 100px;
+   
+}
+#tables, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    padding-left: 110px;
+}

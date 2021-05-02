@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="./forms.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./formm.js"></script>
+</head>
+<body>
+
+    <div id="Form">
+        <h2>Add update Person Form</h2>
+        <h2>Moosa Raza sp18-bse-153</h2>
+        <h2>Kamran Wahab fa17-bse-114</h2>
+        <br>
+        <br>
+        <label for="name">Name</label>
+        <input type="text" id="inputname">
+        <br>
+        <br>
+        <label for="gender">Gender</label>
+        <input type="checkbox" class="chkbx" name="male" value="male" >Male
+       
+        <input type="checkbox" class="chkbx" name="female" value="female" >Female
+        <br><br>
+        <label for="age">Age</label>
+        <input type="text" name="" id="age"><br><br>
+        <label for="city">City</label>
+        <select name="Cities" id="cities">
+            <option value="Lahore">Lahore</option>
+            <option value="Islamabad">Islamabad</option>
+            <option value="karachi">Karachi</option>
+            <option value="Pindi">Pindi</option>
+          </select><br><br>
+        <button id="Reset">Reset</button>
+        <button id="add">Add</button>
+        <button id="UPD">Update</button>
+    </div>
+
+    <div id="table">
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Age</th>
+                <th>City</th>
+                <th>Action</th>
+            </tr>
+            <tbody id="body">
+
+            </tbody>
+            
+        </table>
+
+    </div>
+    
+</body>
+</html>
